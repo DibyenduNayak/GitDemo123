@@ -1,0 +1,56 @@
+ What is Version Control System (VCS) ?
+Introduction to Version Control Systems (VCS)
+
+    A Version Control System (VCS) is a tool that helps track changes to files and manage project updates efficiently.
+    It is widely used in software development to ensure smooth collaboration and version tracking.
+
+Benifits of Version Control Systems (VCS)
+
+    Version control helps manage changes to source code, documents, or projects efficiently.
+    It is used to :-
+        Track and save changes to files over time.
+        Help multiple developers work on the same project without conflicts.
+        Allow rolling back to previous versions if needed.
+        Prevent accidental loss of important code.
+        Improve collaboration and code review processes.
+
+Types of Version Control Systems (VCS)
+
+    Version Control Systems are classified into three main types based on how they store and manage changes:
+        Local Version Control System (LVCS)
+        Centralized Version Control System (CVCS)
+        Distributed Version Control System (DVCS)
+
+1. Local Version Control System (LVCS)
+
+    A simple system where all file versions are stored on a single computer.
+        Uses local directories and backups to track changes.
+        No network access is required.
+        Simple but prone to data loss.
+        Hard to collaborate with multiple developers.
+        Example:
+            Manual file backups
+            RCS (Revision Control System)
+
+2. Centralized Version Control System (CVCS)
+
+    A single server stores all files, and multiple users access it.
+        Requires an internet connection to access the repository.
+        Provides a single source of truth for teams.
+        Risk of losing all data if the server crashes.
+        Slower than distributed systems.
+        Example:
+            SVN (Subversion)
+            Perforce
+
+3. Distributed Version Control System (DVCS)
+
+    Each user has a full copy of the repository on their computer.
+        Works both online and offline.
+        Every user has a backup of the repository
+        Faster than centralized systems.
+        Reduces risk of data loss if the server fails.
+        Example:
+            Git
+            Mercurial
+
